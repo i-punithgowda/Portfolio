@@ -1,0 +1,270 @@
+:root {
+    --primary-color: #c72727;
+    --secondary-color: #f99500;
+    --light-color: #f3f3f3;
+    --dark-color: #333;
+    --max-width: 1100px;
+  }
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+/*  Utilities  */
+a{
+    text-decoration: none;
+    color:#fff;
+    }
+
+
+
+
+/* Nav-bar */
+
+
+#main-nav .nav-items{
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: #333;
+    color:#fff;
+}
+
+
+#main-nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-nav ul li{
+    padding-left:20px;
+}
+
+#main-nav .nav-items #ham{
+    display:none;
+}
+
+
+#main-nav ul li a.active{
+   background-color:var(--primary-color);
+   padding:0.75rem 1.5rem;
+   border-radius: 1px;
+  
+}
+
+#main-nav ul li a.active:hover{
+    background-color: var(--light-color);
+    color:#333;
+}
+
+
+#main-nav .logo h1{
+    font-family: 'Neonderthaw', cursive;
+}
+
+
+#home{
+    padding:0.75rem;
+    background-color: #333;
+    display:flex;
+    height:90vh;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+
+#home .intro h1{
+color:#fff;
+font-size: 3rem;
+line-height: 1.7;
+}
+
+#home .intro #name{
+color: var(--primary-color);
+}
+
+#home .intro h3{
+    font-size: 3rem;
+    color:#f1f1f1;   
+}
+#home .intro p{
+font-weight: bold;
+    color:#f1f1f1;
+    display:none;
+}
+
+#home .img-home{
+    width:700px;
+}
+
+
+
+#home .img-home img{
+    width:100%;
+}
+
+#home .img-mobile{
+    display:none;
+}
+
+#about{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:400px;
+}
+
+
+#about .img-about{
+align-items: center;
+width:100%;
+height:100%;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color:#333;
+}
+
+#about .img-about h1{
+    padding:0.75rem;
+}
+
+#about .img-about p{
+    font-weight: bold;
+}
+
+#about .img-about img{
+width:200px;
+}
+
+#about .about-me{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:0 5rem;
+}
+
+#about .about-me h1{
+    font-size: 3rem;
+   color:#333;
+   letter-spacing: 1.7;
+}
+
+#about .about-me p{
+    padding-top:10px;
+    color:#333;
+    font-size:1.3rem;
+    margin-top:20px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+#projects{
+    background-color: #333;
+    color:#fff;
+}
+
+#projects h1{
+    text-align:center;
+    font-size: 2rem;
+    padding:50px;
+}
+
+#projects .grid-projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:5px ;
+    padding:20px;
+}
+
+#projects .grid-projects .card{
+    margin-left:20px;
+    width:300px;
+    height:350px;
+    background-color: #f2f2f2;
+    color:#333;
+    border-radius:8px;
+    
+}
+
+#projects .grid-projects .card:active{
+    box-shadow: 2px 2px  var(--primary-color);
+}
+
+#projects .grid-projects .card img{
+    width:100%;
+    height:150px;
+}
+#projects .grid-projects .card h1{
+    font-size: 1.2rem;
+    padding:10px;
+}
+
+#projects .grid-projects .card p{
+    padding:10px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#projects .grid-projects .card a{
+color:var(--primary-color);
+}
+
+#contact{
+    display:flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    padding:20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact h1{
+    margin-top:100px;
+    letter-spacing: 1;
+    font-size: 2rem;
+}
+
+#contact h3{
+    margin-top:10px;
+    font-size: 1.2rem;
+}
+
+#contact .social-links{
+    margin-top:20px;
+}
+
+#contact .social-links a{
+    color:#333;
+}
+
+#contact .social-links i{
+    font-size: 1.4rem;
+    margin-left:20px;
+}
+
+/*Scroll bar */
+
+body::-webkit-scrollbar {
+    width: 1em;
+    
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    outline: 1px solid var(--primary-color);
+    border-radius: 8px;
+  }
