@@ -34,7 +34,7 @@ display:inline;
         display:inline;
     }
     #home .img-mobile img{
-       width:200px;
+       width:250px;
        
     }
     #home .img-home{
@@ -43,7 +43,7 @@ display:inline;
 
     #about{
         display:inline-block;
-        height:410px;
+        height:400px;
     }
 
     #about .about-me{
