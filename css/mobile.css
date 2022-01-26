@@ -34,7 +34,7 @@ display:inline;
         display:inline;
     }
     #home .img-mobile img{
-       width:140px;
+       width:200px;
        
     }
     #home .img-home{
@@ -45,7 +45,7 @@ display:inline;
         display:inline-block;
         height:410px;
     }
-    
+
     #about .about-me{
         padding:0.5;margin:0 10px;
     }
