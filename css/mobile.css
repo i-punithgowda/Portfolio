@@ -28,13 +28,6 @@ display:inline;
     #home .intro h3{
         font-size: 1.5rem;
     }
-
-    #home .intro p{
-        margin-top:10px;
-        font-weight: bold;
-            color:#f1f1f1;
-            display:inline;
-        }
         
 
     #home .img-mobile{

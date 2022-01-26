@@ -92,11 +92,7 @@ color: var(--primary-color);
     font-size: 3rem;
     color:#f1f1f1;   
 }
-#home .intro p{
-font-weight: bold;
-    color:#f1f1f1;
-    display:none;
-}
+
 
 #home .img-home{
     width:700px;
