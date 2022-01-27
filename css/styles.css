@@ -206,6 +206,7 @@ width:200px;
 #projects .grid-projects .card h1{
     font-size: 1.2rem;
     padding:10px;
+    color:var(--primary-color);
 }
 
 #projects .grid-projects .card p{
@@ -214,9 +215,7 @@ width:200px;
     text-align: center;
 }
 
-#projects .grid-projects .card a{
-color:var(--primary-color);
-}
+
 
 #contact{
     display:flex;
