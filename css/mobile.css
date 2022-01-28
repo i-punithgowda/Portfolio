@@ -8,6 +8,26 @@ display:inline;
     }
 
 
+    #responsive-bar{
+        display:none;
+        background-color: #333;
+    }
+
+    #responsive-bar ul{
+        display:flex;
+       flex-direction: column;
+    }
+     #responsive-bar ul li{
+       font-size: 1.4rem;
+       background-color: #f2f2f2;
+       border-bottom:0.5px solid #333;
+       padding:10px 0;
+    }
+
+    #responsive-bar ul li a{
+        color:#333;
+    }
+
     #home{
         display:block;
         height:300px;

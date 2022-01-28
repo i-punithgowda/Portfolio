@@ -82,6 +82,14 @@ a{
     width:100%;
 }
 
+/*Responsive nav-bar*/
+
+#responsive-bar{
+display:none;
+}
+
+/*Intro */
+
 #home .intro h1{
 color:#fff;
 font-size: 3rem;
@@ -111,6 +119,8 @@ color: var(--primary-color);
 #home .img-mobile{
     display:none;
 }
+
+/*About */
 
 #about{
     display:flex;
@@ -167,6 +177,8 @@ width:200px;
     text-align: justify;
 }
 
+/*Projects */
+
 #projects{
     background-color: #333;
     color:#fff;
@@ -215,6 +227,8 @@ width:200px;
     text-align: center;
 }
 
+
+/*Footer*/
 
 
 #contact{
