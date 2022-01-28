@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
 @media only screen and (max-width: 600px) {
     #main-nav ul{
         display:none;
@@ -16,12 +19,13 @@ display:inline;
     #responsive-bar ul{
         display:flex;
        flex-direction: column;
+       font-family: 'Roboto Slab', serif;
     }
      #responsive-bar ul li{
        font-size: 1.4rem;
        background-color: #f2f2f2;
        border-bottom:0.5px solid #333;
-       padding:10px 0;
+       padding:10px;
     }
 
     #responsive-bar ul li a{
